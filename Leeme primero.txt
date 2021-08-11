@@ -1,0 +1,42 @@
+Hola!
+Mi nombre es Daniel David Gómez.
+
+He elaborado este programa de acuerdo a lo que se especificaba, sin embargo, es importante que entiendan la
+manera en la que he desarrollado el mismo.
+
+Solamente para aclarar, el programa permite hasta tres usuarios:
+
+- Usuario1 o U1 (el código de ese usuario)
+- Usuario2 o U2
+- Usuario3 o U3
+
+Si no es cualquiera de estos tres (3) usuarios, escrito de la manera en que lo acabo de escribir (Con la 'U'
+en mayúscula y el número pegado a los caracteres), el programa SIEMPRE mostrará "Usuario NO VALIDO..."
+
+Adicionalmente, dado que al iniciar el programa, este aún NO CONOCE los saldos con los que se quiere operar,
+cree un MENU previo al inicio del programa, en donde SI SE DESEA, se puede cargar información al programa de 
+cada usuario, si esto no se hace, el programa interpretará que los usuarios NO poseen Cripto Monedas y que
+su saldo en Dólares es de cero (0).
+
+La razón de hacerlo de esta manera es para darle lógica al funcionamiento del mismo, pues si no se escribe el
+Usuario adecuado, este no debe funcionar. Tal cual como lo haría el sistema de cualquier inicio de sesión.
+Así mismo, es importante que tengamos la opción de cargar información al sistema de los saldos y monedas de los
+usuarios, porque de lo contrario, ¿Cómo podríamos enviar determinada cantidad de cierta Cripto Moneda a un
+usuario, si no tenemos dinero ni saldo?.}
+
+Finalmente, el programa no requiere tener ninguna ruta de directorio en específico para la manipulación de 
+archivos, pues este mismo los crea en la ruta en la que se encuentre el archivo y los manipula. En específico,
+solo creará dos archivos de tipo CSV, uno llamado "Usuarios.csv" y otro llamado "Transacciones.csv", cada uno
+almacena información diferente respecto al programa. Decidí investigar sobre archivos CSV en Python en lugar
+de .TXT como aparecía en la información académica del curso, pues me parece mejor el formato de hojas de
+cálculo para almacenar este tipo de información que un archivo TXT, aunque por la cantidad y tipo de
+información, podría haber manejado el propuesto en el programa, fue más como un reto personal (espero haber
+sido claro).
+
+Con base en esta lógica, he desarrollado el programa, espero cumpla con las expectativas del curso.
+
+Gracias por leer este pequeño tutorial!
+
+Atentamente,
+
+Daniel David Gómez
